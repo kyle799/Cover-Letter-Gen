@@ -1,10 +1,10 @@
-import datetime as dollarsigndate
+import datetime as dt
 import os
 
 position = ""
 company = ""
 towhom = ""
-tdate = dollarsigndate.datetime.today().strftime('%b %d %Y')
+tdate = dt.datetime.today().strftime('%b %d %Y')
 desktop = os.path.join(os.path.join(os.environ['USERPROFILE']),'Desktop')
 
 
