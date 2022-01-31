@@ -26,7 +26,7 @@ Thank you for your time,
 
 def check():
     correct = input("is this correct? Y or N: ")
-    correct.lower
+    correct.lower()
 
     if (correct[0] == "y"):
         file = open(f"{desktop}/Coverletter.txt", 'w')
